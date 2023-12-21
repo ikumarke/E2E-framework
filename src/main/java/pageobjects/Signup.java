@@ -27,6 +27,8 @@ PageFactory.initElements(driver, this);
 	@FindBy(xpath="//button[@onclick=\"register()\"]")
 	WebElement signupenterbiutton;
 	
+	
+	
 	public void Click_signup_button() {
 		// TODO Auto-generated method stub
 		signupbutton.click();
